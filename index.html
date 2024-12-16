@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Trading Cards</title>
+    <script src="/static/js/app.js" defer></script>
+</head>
+<body>
+    <h1>Soccer Trading Cards</h1>
+
+    <h2>Interactive Card Gallery</h2>
+    <div id="cardGallery"></div>
+
+    <h2>Generate Pele Card</h2>
+    <button onclick="generateCard('pele')">Generate Pele Card</button>
+    <img id="peleCardImage" src="" width="150" />
+
+    <h2>Generate Messi Card</h2>
+    <button onclick="generateCard('messi')">Generate Messi Card</button>
+    <img id="messiCardImage" src="" width="150" />
+
+    <h2>Audio Transcription</h2>
+    <input type="file" id="audioUpload" />
+    <button onclick="transcribeAudio()">Transcribe Audio</button>
+
+    <h2>Image Analysis</h2>
+    <input type="file" id="imageUpload" />
+    <button onclick="analyzeImage()">Analyze Image</button>
+
+    <h2>Chat with Soccer Card Assistant</h2>
+    <input type="text" id="userMessage" placeholder="Ask a question..." />
+    <button onclick="askChatbot()">Ask</button>
+</body>
+</html>
+
+
